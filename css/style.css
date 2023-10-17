@@ -1,0 +1,268 @@
+/* HEADER (nav) */
+
+#logo img {
+    height: 50px;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    height: 70px;
+
+}
+
+nav #logo {
+    display: flex;
+    align-items: center
+}
+
+nav #logo img {
+    max-height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center
+}
+
+nav ul li {
+    float: left;
+    display: inline-block; 
+    text-transform:uppercase;
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+
+nav ul a {
+    font-family: sans-serif; 
+    text-decoration-line: none; 
+    color:black
+}
+
+nav ul a:hover {
+    color:mediumpurple;
+}
+
+#home {
+    display: inline-block;
+    width: 7px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+
+/* BODY (sections) */
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#header img {
+    display: block;
+    width: 100%;
+}
+
+h1 {
+    padding: 10px;
+    display: block;
+    text-align: center;
+    font-size: 16pt;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(113,82,255,1) 50%, rgba(255,255,255,1) 100%);
+    color: white;
+    border-radius: 20px;
+}
+
+section#intro {
+    display: block; 
+    padding: 30px;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section#intro p {
+    text-align: center;
+}
+
+#noticias{
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 30px;
+}
+
+#noticias div{
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+}
+
+section#noticias img {
+    max-height: 350px;
+}
+
+.negro {
+    padding: 10px;
+    font-size: 14pt;
+    border-radius: 0%;
+    background: black;
+    text-align: center;
+}
+
+#rrss {
+    margin: 0px;
+}
+
+#rrss img {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 30px;
+}
+
+footer {
+    padding: 5px;
+    display: block;
+    text-align: center;
+    font-size: 8pt;
+    margin-left: 10px; 
+    margin-right: 10px;
+    color: darkgray;
+}
+
+
+
+/* CONTACTO (form) */
+
+#formulario {
+    display: inline-block;
+    text-align: center;
+    width: 500px;
+    margin: 50px;
+}
+
+#formulario fieldset{
+        border-radius: 10px;
+}
+
+aside {
+    display: inline-block;
+    min-width: 300px;
+}
+
+aside img {
+    max-height: 550px;
+}
+
+#contacto {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 30px;
+}
+
+
+
+/* PRODUCTOS */
+
+h2 {
+    text-decoration-line: underline
+}
+
+#productos {
+    display: block; 
+    padding: 30px;
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+section#productos table {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 10pt;
+    border-collapse: collapse;
+}
+
+section#productos table td {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+section#productos table th{
+    font-size: 14pt;
+}
+
+section#productos img {
+    max-width: 300px;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 5%;
+}
+
+section#productos img:hover {
+    opacity: 0.3;
+}
+
+.precio{
+    font-size: 14pt;
+}
+
+section#productos table td.imgtabla{
+    width: 300px;
+}
+
+
+
+/* FINETWORK */
+
+#finetwork{
+    display: block; 
+    padding: 30px;
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+#videocontainer {
+    display: block;
+    text-align: center;
+    margin: 40px;
+}
+
+.roster {
+    margin: 1px;
+    display: inline-block;
+}
+
+.roster p{
+    font-size: 10pt;
+    margin: -1px;
+}
+
+.roster img {
+    max-height: 350px;
+    margin: 20px;
+    background: linear-gradient(0deg, rgba(200,186,255,1) 0%, rgba(132,105,255,1) 100%);
+    border-radius: 5%;
+    box-shadow: 10px 5px 10px black;
+    transition: .5s ease;
+}
+
+.roster img:hover {
+    opacity: 70%
+}
+
+h3{
+    margin: -2px;
+}
+
+figcaption{
+    font-size: 12px;
+    margin-top: 10px;
